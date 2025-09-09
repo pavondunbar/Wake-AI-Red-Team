@@ -1,0 +1,51 @@
+"""Workflows for Wake AI framework."""
+
+# This package contains pre-built workflows for various AI tasks.
+# The core framework is in the wake_ai package.
+
+from .access_control import AccessControlDetector
+from .advanced_block_building_attacks import AdvancedBlockBuildingAttacksDetector
+from .arithmetic_attacks import ArithmeticAttacksDetector
+from .audit import AuditWorkflow
+from .core_attacks import CoreAttackMechanismsDetector
+from .cross_chain_attacks import CrossChainAttacksDetector
+from .defi_protocol_attacks import DeFiProtocolAttacksDetector
+from .donation_attack import DonationAttackDetector
+from .flashloan_mev_attacks import FlashLoanMEVAttacksDetector
+from .gas_attacks import GasAttacksDetector
+from .governance import GovernanceDetector
+from .layer2_rollup_attacks import Layer2RollupAttacksDetector
+from .liquidity_attacks import LiquidityAttacksDetector
+from .nft_ai_attacks import NFTAttacksDetector
+from .oracle_attacks import OracleAttacksDetector
+from .privacy_zk_attacks import PrivacyZKAttacksDetector
+from .reentrancy import ReentrancyDetector
+from .rwa_tokenization_attacks import RWATokenizationAttacksDetector
+from .staking_attacks import StakingAttacksDetector
+from .state_corruption import StateCorruptionDetector
+from .uniswap_integration import UniswapDetector
+from .intent_aa_attacks import IntentAAAttacksDetector
+from .liquid_restaking_attacks import LiquidRestakingAttacksDetector
+from .time_based_attacks import TimeBasedAttacksDetector
+from .signature_crypto_attacks import SignatureCryptoAttacksDetector
+from .l2_specific_attacks import L2SpecificAttacksDetector
+from .specialized_token_attacks import SpecializedTokenAttacksDetector
+from .yield_farming_attacks import YieldFarmingAttacksDetector
+from .token_vesting_attacks import TokenVestingAttacksDetector
+from .advanced_compound_attacks import AdvancedCompoundAttacksDetector
+from .vm_zk_proof_attacks import VMZKProofAttacksDetector
+from .asset_lock_bridge_attacks import AssetLockBridgeAttacksDetector
+from .emergency_orchestration_attacks import EmergencyOrchestrationAttacksDetector
+from .ai_assisted_attacks import AIAssistedAttacksDetector
+from .insurance_protocol_attacks import InsuranceProtocolAttacksDetector
+from .honeypot_mechanism_attacks import HoneypotMechanismAttacksDetector
+from .options_protocol_attacks import OptionsProtocolAttacksDetector
+from .perpetual_protocol_attacks import PerpetualProtocolAttacksDetector
+from .identity_naming_attacks import IdentityNamingAttacksDetector
+from .mining_pool_attacks import MiningPoolAttacksDetector
+from .event_history_manipulation_attacks import EventHistoryManipulationAttacksDetector
+from .constructor_initialization_attacks import ConstructorInitializationAttacksDetector
+from .implementation_proxy_attacks import ImplementationProxyAttacksDetector
+from .poison_vanity_contract_attacks import PoisonVanityContractAttacksDetector
+from .distraction_stealth_attacks import DistractionStealthAttacksDetector
+from .randomness_entropy_attacks import RandomnessEntropyAttacksDetector
